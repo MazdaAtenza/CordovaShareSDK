@@ -126,9 +126,9 @@
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
             </activity>
-
+            <!--将此处的.wxapi.WXEntryActivity换成你自己的包名-->
             <activity
-                android:name=".wxapi.WXEntryActivity"
+                android:name="com.test.shareApp001.wxapi.WXEntryActivity"
                 android:theme="@android:style/Theme.Translucent.NoTitleBar"
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:exported="true"

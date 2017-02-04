@@ -16,4 +16,8 @@
 	<string name="ssdk_oks_refreshing">刷新中…</string>
 	<string name="ssdk_oks_shake2share">摇晃手机！</string>
 	<string name="ssdk_oks_select_a_friend">请选择一个朋友</string>
+	<string name="ssdk_oks_confirm">确定</string>
+	<string name="ssdk_oks_contacts">联系人</string>
+	<drawable name="ssdk_oks_classic_platfrom_cell_back_nor">#ffffffff</drawable>
+    <drawable name="ssdk_oks_classic_platfrom_cell_back_sel">#ffeeeeee</drawable>
 </resources>

@@ -197,7 +197,7 @@
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_blue_point.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_btn_back_nor.9.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_alipay.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_alipaymoments" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_alipaymoments.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_bluetooth.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_check_checked.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_check_default.png" target-dir="res/drawable-xhdpi" />

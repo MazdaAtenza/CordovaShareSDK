@@ -147,14 +147,14 @@
         <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Favorite-2.8.0.jar"/>
         <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Moments-2.8.0.jar"/>
 
-        <!-- ShareSDK Sources -->
+        <!-- 
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/CustomerLogo.java" target-dir="src/cn/sharesdk/onekeyshare" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/OnekeyShare.java" target-dir="src/cn/sharesdk/onekeyshare" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/OnekeySharePage.java" target-dir="src/cn/sharesdk/onekeyshare" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/OnekeyShareTheme.java" target-dir="src/cn/sharesdk/onekeyshare" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/OnekeyShareThemeImpl.java" target-dir="src/cn/sharesdk/onekeyshare" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/ShareContentCustomizeCallback.java" target-dir="src/cn/sharesdk/onekeyshare" />
-
+        
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/ClassicTheme.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/EditPage.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/FriendAdapter.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic" />
@@ -167,43 +167,43 @@
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/PRTHeader.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/RotateImageView.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic" />
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/XView.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic" />
-
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/EditPageLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/FriendListPageLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/PlatformPageAdapterLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/PlatformPageLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
-
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/EditPagePort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/FriendListPagePort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/PlatformPageAdapterPort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
-       <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/PlatformPagePort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
-
-        <!-- ShareSDK Res -->
+        
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/EditPageLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/FriendListPageLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/PlatformPageAdapterLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/land/PlatformPageLand.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/land" />
+        
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/EditPagePort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/FriendListPagePort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/PlatformPageAdapterPort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
+               <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/themes/classic/port/PlatformPagePort.java" target-dir="src/cn/sharesdk/onekeyshare/themes/classic/port" />
+        
+        
         <source-file src="src/android/ShareSDK/res/drawable/ssdk_oks_classic_platform_cell_back.xml" target-dir="res/drawable" />
         <source-file src="src/android/ShareSDK/res/drawable/ssdk_oks_classic_platform_corners_bg.xml" target-dir="res/drawable" />
         <source-file src="src/android/ShareSDK/res/drawable/ssdk_oks_classic_progressbar.xml" target-dir="res/drawable" />
         <source-file src="src/android/ShareSDK/res/drawable/ssdk_oks_skyblue_platform_list_item.xml" target-dir="res/drawable" />
         <source-file src="src/android/ShareSDK/res/drawable/ssdk_oks_skyblue_platform_list_item_selected.xml" target-dir="res/drawable" />
         <source-file src="src/android/ShareSDK/res/drawable/ssdk_oks_skyblue_platform_list_selector.xml" target-dir="res/drawable" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-hdpi/ssdk_oks_ptr_ptr.png" target-dir="res/drawable-hdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-land-hdpi/screen.png" target-dir="res/drawable-land-hdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-land-ldpi/screen.png" target-dir="res/drawable-land-ldpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-land-mdpi/screen.png" target-dir="res/drawable-land-mdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-land-xhdpi/screen.png" target-dir="res/drawable-land-xhdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-port-hdpi/screen.png" target-dir="res/drawable-port-hdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-port-ldpi/screen.png" target-dir="res/drawable-port-ldpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-port-mdpi/screen.png" target-dir="res/drawable-port-mdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-port-xhdpi/screen.png" target-dir="res/drawable-port-xhdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_auth_title_back.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_back_arr.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_logo.png" target-dir="res/drawable-xhdpi" />
@@ -402,30 +402,30 @@
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_title_shadow.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_yaoyiyao.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_title_div.png" target-dir="res/drawable-xhdpi" />
-
-
+        
+        
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_editpage.xml" target-dir="res/layout" />
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_editpage_at_layout.xml" target-dir="res/layout" />
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_editpage_inc_image_layout.xml" target-dir="res/layout" />
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_share_actionbar.xml" target-dir="res/layout" />
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_share_platform_list.xml" target-dir="res/layout" />
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_share_platform_list_item.xml" target-dir="res/layout" />
-
+        
         <source-file src="src/android/ShareSDK/res/mipmap-hdpi/icon.xml" target-dir="res/mipmap-hdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/mipmap-ldpi/icon.xml" target-dir="res/mipmap-ldpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/mipmap-mdpi/icon.xml" target-dir="res/mipmap-mdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/mipmap-xhdpi/icon.xml" target-dir="res/mipmap-xhdpi" />
-
+        
         <source-file src="src/android/ShareSDK/res/values/ssdk_instapaper_strings.xml" target-dir="res/values" />
         <source-file src="src/android/ShareSDK/res/values/ssdk_oks_strings.xml" target-dir="res/values" />
         <source-file src="src/android/ShareSDK/res/values/ssdk_strings.xml" target-dir="res/values" />
         <source-file src="src/android/ShareSDK/res/values/strings.xml" target-dir="res/values" />
-
+        
         <source-file src="src/android/ShareSDK/res/values-en/ssdk_oks_strings.xml" target-dir="res/values-en" />
-        <source-file src="src/android/ShareSDK/res/values-en/ssdk_strings.xml" target-dir="res/values-en" />
+        <source-file src="src/android/ShareSDK/res/values-en/ssdk_strings.xml" target-dir="res/values-en" /> -->
     </platform>
 
     <platform name="ios">

@@ -114,5 +114,5 @@ ShareSDKPlugin.share();
 # 测试用的各平台的AppId和签名文件等参数下载地址
 
 ```sh	
-http://pan.baidu.com/s/1pLbJd7X
+http://pan.baidu.com/s/1dFKcPG1
 ```

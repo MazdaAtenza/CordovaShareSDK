@@ -16,4 +16,6 @@
 	<string name="ssdk_oks_refreshing">Refreshing…</string>
 	<string name="ssdk_oks_shake2share">Shake your phone!</string>
 	<string name="ssdk_oks_select_a_friend">Please select a friend</string>
+	<string name="ssdk_oks_confirm">Confirm</string>
+    <string name="ssdk_oks_contacts">Contacts</string>
 </resources>

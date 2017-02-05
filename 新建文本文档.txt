@@ -3,6 +3,7 @@ IOS	appkey = 1aab40418dcd6    appsecret = 1bdac248fbada181c90a82f14b532910
 WEB	appkey = 1ab27d4e41800    appsecret = cf6c543d4080bb432c90f21beab18135
 
 
+
 ionic plugin add https://github.com/raistlinzx/cordova-plugin-sharesdk.git 
 	--variable SHARESDK_IOS_APPKEY = 1aab40418dcd6 
 	--variable SHARESDK_ANDROID_APPKEY = 1a8686df82280
@@ -16,11 +17,10 @@ ionic plugin add https://github.com/raistlinzx/cordova-plugin-sharesdk.git
 	--variable WBREDIRECTURL = https://api.weibo.com/oauth2/default.html
 
 
-
-
-
 cordova plugin add https://github.com/raistlinzx/cordova-plugin-sharesdk.git --variable SHARESDK_IOS_APPKEY=1aab40418dcd6 --variable SHARESDK_ANDROID_APPKEY=1a8686df82280 --variable QQAPPID=1105882445 --variable QQAPPKEY=32D3XmQQ2MBaYD6e --variable WECHATAPPID=wxacf1bc851c11726d --variable WECHATAPPSECRET=ded19727a6a6658b499589e9c924fb0f --variable QQURLSCHEME=QQ41ea6d4d --variable WBAPPKEY=1939651351 --variable WBAPPSECRET=c467197a3b38047b5da7198acad318aa --variable WBREDIRECTURL=https://api.weibo.com/oauth2/default.html
+
 cordova plugin add https://github.com/MazdaAtenza/CordovaShareSDK --variable SHARESDK_IOS_APPKEY=1aab40418dcd6 --variable SHARESDK_ANDROID_APPKEY=1a8686df82280 --variable QQAPPID=1105882445 --variable QQAPPKEY=32D3XmQQ2MBaYD6e --variable WECHATAPPID=wxacf1bc851c11726d --variable WECHATAPPSECRET=ded19727a6a6658b499589e9c924fb0f --variable QQURLSCHEME=QQ41ea6d4d --variable WBAPPKEY=1939651351 --variable WBAPPSECRET=c467197a3b38047b5da7198acad318aa --variable WBREDIRECTURL=https://api.weibo.com/oauth2/default.html
+
 
 
 1.16      shareApp001应用----->com.test.shareApp001------>生成签名: a19818a5481fa467891c349658948194-----debug.keystore    别名：androiddebugkey   两次密码都是android

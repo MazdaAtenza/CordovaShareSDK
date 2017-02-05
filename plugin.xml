@@ -136,16 +136,16 @@
         </config-file>
 
         <!-- ShareSDK Libs -->
-        <lib-file src="src/android/ShareSDK/libs/MobCommons.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/MobTools.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Core-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-QQ-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-QZone-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-SinaWeibo-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Core-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Favorite-2.6.6.jar"/>
-        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Moments-2.6.6.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/MobCommons-2016.1222.1756.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/MobTools-2016.1222.1756.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Core-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-QQ-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-QZone-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-SinaWeibo-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Core-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Favorite-2.8.0.jar"/>
+        <lib-file src="src/android/ShareSDK/libs/ShareSDK-Wechat-Moments-2.8.0.jar"/>
 
         <!-- ShareSDK Sources -->
         <source-file src="src/android/ShareSDK/src/cn/sharesdk/onekeyshare/CustomerLogo.java" target-dir="src/cn/sharesdk/onekeyshare" />

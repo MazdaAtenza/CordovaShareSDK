@@ -215,7 +215,7 @@
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_kaixin.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_kakaostory.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_kakaotalk.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_laiwang" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_laiwang.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_laiwangmoments.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_line.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_linkedin.png" target-dir="res/drawable-xhdpi" />
@@ -240,7 +240,7 @@
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_classic_youdao.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_edittext_back.9.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_img_cancel.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_light_blue_point.xml" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_light_blue_point.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_alipay.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_bluetooth.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_douban.png" target-dir="res/drawable-xhdpi" />
@@ -379,6 +379,7 @@
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_title_shadow.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_yaoyiyao.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_title_div.png" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_shake_to_share_back.xml" target-dir="res/drawable-xhdpi" />
 
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_editpage.xml" target-dir="res/layout" />
         <source-file src="src/android/ShareSDK/res/layout/ssdk_oks_skyblue_editpage_at_layout.xml" target-dir="res/layout" />

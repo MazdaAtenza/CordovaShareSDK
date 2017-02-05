@@ -258,7 +258,7 @@
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_kakaostory.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_kakaotalk.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_laiwang.png" target-dir="res/drawable-xhdpi" />
-        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_laiwangmoments" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_laiwangmoments.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_line.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_linkedin.png" target-dir="res/drawable-xhdpi" />
         <source-file src="src/android/ShareSDK/res/drawable-xhdpi/ssdk_oks_logo_mingdao.png" target-dir="res/drawable-xhdpi" />

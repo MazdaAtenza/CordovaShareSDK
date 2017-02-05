@@ -1,22 +1,23 @@
 package com.ryanzx.cordova.plugin.sharesdk;
 
-import org.apache.cordova.CordovaPlugin;
-import org.apache.cordova.CallbackContext;
+import java.util.HashMap;
 
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
-import android.content.Context;
 
-import cn.sharesdk.onekeyshare.OnekeyShare;
-import cn.sharesdk.framework.ShareSDK;
-import java.util.HashMap;
-import cn.sharesdk.framework.Platform;
-import cn.sharesdk.framework.PlatformActionListener;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageInfo;
+import android.content.Context;
 import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import cn.sharesdk.framework.Platform;
+import cn.sharesdk.framework.Platform.ShareParams;
+import cn.sharesdk.framework.PlatformActionListener;
+import cn.sharesdk.framework.ShareSDK;
+import cn.sharesdk.onekeyshare.OnekeyShare;
+import cn.sharesdk.onekeyshare.ShareContentCustomizeCallback;
+import cn.sharesdk.sina.weibo.SinaWeibo;
 
 
 
@@ -81,6 +82,15 @@ public class ShareSDKPlugin extends CordovaPlugin implements PlatformActionListe
             oks.setSite(siteName);
             // siteUrl是分享此内容的网站地址，仅在QQ空间使用
             oks.setSiteUrl(url);
+            // 以下为解决微博只能图文分享的问题，在此处设置链接
+			oks.setShareContentCustomizeCallback(new ShareContentCustomizeCallback() {
+				public void onShare(Platform platform, ShareParams paramsToShare) {
+					if (SinaWeibo.NAME.equals(platform.getName())) {
+						paramsToShare.setText("文本 http://www.baidu.com");
+					}
+				}
+			});
+			 // 以上为解决微博只能图文分享的问题，在此处设置链接
             oks.setCallback(this);
             // 启动分享GUI
             oks.show(context);

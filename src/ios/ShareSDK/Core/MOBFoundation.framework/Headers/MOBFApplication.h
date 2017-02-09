@@ -53,4 +53,27 @@
  */
 + (BOOL)enabledATS;
 
+/**
+ *  获取应用运行经过的时间（单位：毫秒）
+ *
+ *  @return 经过时间
+ */
++ (uint64_t)elapsedTime;
+
+/**
+ *  判断链接是否能打开
+ *
+ *  @param url 链接
+ *
+ *  @return YES 可以打开，NO 不能打开
+ */
++ (BOOL)canOpenUrl:(NSURL *)url;
+
+/**
+ *  打开链接
+ *
+ *  @param url 链接
+ */
++ (void)openUrl:(NSURL *)url;
+
 @end

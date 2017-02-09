@@ -505,7 +505,7 @@
         <header-file src="src/ios/ShareSDK/Extend/WeChatSDK/WXApi.h" />
         <header-file src="src/ios/ShareSDK/Extend/WeChatSDK/WXApiObject.h" />
         <source-file src="src/ios/ShareSDK/Extend/WeChatSDK/libWeChatSDK.a" framework="true" />
-        <resource-file src="src/ios/ShareSDK/Extend/QQConnectSDK/TencentOpenApi_IOS_Bundle.bundle" />
+        <resource-file src="src/ios/ShareSDK/Extend/QQSDK/TencentOpenApi_IOS_Bundle.bundle" />
         <!-- Sina Official -->
         <header-file src="src/ios/ShareSDK/Extend/SinaWeiboSDK/WeiboSDK.h" />
         <header-file src="src/ios/ShareSDK/Extend/SinaWeiboSDK/WeiboUser.h" />
@@ -522,19 +522,19 @@
         <resource-file src="src/ios/ShareSDK/Extend/SinaWeiboSDK/WeiboSDK.bundle" />
         <!-- ShareSDK -->
         <framework src="src/ios/ShareSDK/ShareSDK.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Connection/QQConnection.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Connection/QZoneConnection.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Connection/SinaWeiboConnection.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Connection/WeChatConnection.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Core/ShareSDKCoreService.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Core/AGCommon.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Connection/QQConnector.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Connection/QZoneConnector.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Connection/SinaWeiboConnector.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Connection/WechatConnector.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Core/ShareSDKConnector.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Core/ShareSDK.bundle" custom="true"/>
         <framework src="src/ios/ShareSDK/Core/MOBFoundation.framework" custom="true"/>
-        <resource-file src="src/ios/ShareSDK/UI/ShareSDKFlatShareViewUI.bundle" />
-        <resource-file src="src/ios/ShareSDK/Core/zh-Hans.lproj/ShareSDKLocalizable.strings" />
-        <resource-file src="src/ios/ShareSDK/Core/Resource.bundle" />
-        <framework src="src/ios/ShareSDK/UI/ShareSDKShareActionSheet.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/UI/ShareSDKFlatShareViewUI.framework" custom="true"/>
-        <framework src="src/ios/ShareSDK/Extend/QQConnectSDK/TencentOpenAPI.framework" custom="true"/>
+        <resource-file src="src/ios/ShareSDK/UI/ShareSDKConfigFile.bundle" />
+        <framework src="src/ios/ShareSDK/UI/ShareSDKConfigFile.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/UI/ShareSDKExtension.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/UI/ShareSDKUI.bundle" custom="true"/>
+        <framework src="src/ios/ShareSDK/UI/ShareSDKUI.framework" custom="true"/>
+        <framework src="src/ios/ShareSDK/Extend/QQSDK/TencentOpenAPI.framework" custom="true"/>
 
     </platform>
 </plugin>
